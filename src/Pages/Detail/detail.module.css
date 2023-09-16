@@ -1,0 +1,365 @@
+.container1 {
+  position: relative;
+  margin-top: 95px;
+}
+
+.container2 {
+  position: relative;
+  margin-top: 120px;
+}
+
+.nameRoom {
+  font-size: 26px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 500;
+  margin-bottom: 8px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+.underLine {
+  text-decoration: underline !important;
+}
+
+.containerImageRoom {
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.imageRoom {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transform: scale(1.1);
+}
+
+.customIcon {
+  width: 23px;
+  height: 23px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 26px;
+  color: #222222;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.buttonFunction {
+  width: 100%;
+  font-weight: 500;
+  text-align: right !important;
+  margin-bottom: 0;
+}
+
+.buttonFunction span {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right !important;
+  color: #222222;
+  text-decoration: underline !important;
+}
+
+.superHost {
+  color: #222222;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.quantity {
+  color: #222222;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
+.dot {
+  font-size: 2px;
+  line-height: 0px;
+  padding-bottom: 0px;
+}
+
+.describeRoom {
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  font-weight: 300;
+}
+
+.name,
+.nameThrough {
+  font-size: 16px;
+  line-height: 23px;
+  color: #222222;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.nameThrough {
+  text-decoration: line-through !important;
+}
+
+.titleReview {
+  font-size: 22px;
+  line-height: 26px;
+  color: #222222;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.nameUser {
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-top: 7px;
+}
+
+.dateReview {
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  font-weight: 300;
+}
+
+.subTitleReview {
+  color: #717171;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.subReview {
+  color: #717171;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.imgUser {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.imgUserNoneImg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+
+.review {
+  font-size: 16px;
+  line-height: 23px;
+  color: #222222;
+  font-weight: 300;
+  margin-bottom: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 100px;
+}
+
+.parentCol {
+  position: relative;
+}
+
+.booking {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px 0px;
+  border-radius: 12px;
+  padding: 20px;
+  height: auto;
+  top: 0;
+  left: 0;
+  border: 1px solid #d3d3d3;
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.containerImageMap {
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.imageMap {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.describeDate {
+  font-size: 12px;
+  line-height: 20px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+
+.titleBookingCalendar {
+  font-size: 22px !important;
+  line-height: 26px !important;
+  color: #222222;
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+}
+
+.input {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.buttonSave {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  /* height: 40px; */
+  border: none;
+  margin-bottom: 10px;
+}
+
+.buttonSave span {
+  text-decoration: none;
+  color: white;
+}
+
+.buttonSave span:hover {
+  color: white;
+}
+
+.buttonFunction {
+  width: 100%;
+  text-align: right;
+}
+
+.buttonFunction span {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right !important;
+  color: #222222;
+  text-decoration: underline !important;
+}
+
+.buttonFunction:hover {
+  background-color: transparent !important;
+}
+
+.bookingPrice {
+  font-size: 22px !important;
+  line-height: 26px;
+  color: #222222;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.bookingNight {
+  font-size: 15px;
+  line-height: 26px;
+  color: #222222;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.bookingRate {
+  font-size: 13px;
+  line-height: 26px;
+  color: #717171;
+  font-weight: 300;
+  margin-bottom: 25px;
+  text-align: end;
+}
+
+/* .bookingTitleInput {
+}
+
+.bookingValueInput {
+}
+
+
+.report {
+} */
+
+.bookingButton {
+  width: 100%;
+  font-size: 15px;
+  background: #e61e4e;
+  background: -webkit-linear-gradient(to right, #e61e4e, #d70666);
+  background: linear-gradient(to right, #e61e4e, #d70666);
+  color: white;
+  border-radius: 8px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bookingButton:hover {
+  background-color: #cf2f4c !important;
+  border: transparent;
+  color: white !important;
+}
+
+.price {
+  font-size: 15px;
+  line-height: 26px;
+  color: #222222;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.colUtilityItems {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.dividerGray {
+  margin-bottom: 45px;
+  background: #eeeeee;
+}
+
+.rowNhanPhong {
+  padding: 10px;
+  border-top: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+  border-top-left-radius: 10px;
+}
+
+.rowNhanPhong Col h5,
+.rowTraPhong Col h5 {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.rowTraPhong {
+  padding: 10px;
+  border-top: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  border-top-right-radius: 10px;
+}

@@ -1,0 +1,60 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  transform: translateZ(0);
+  transform: translate3d(0, 0, 0);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(168, 168, 168);
+}
+
+body {
+  transition: all 0.1s;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-decoration: none !important;
+}
+
+ol,
+ul {
+  list-style: none;
+}

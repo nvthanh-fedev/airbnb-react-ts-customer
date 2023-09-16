@@ -1,0 +1,161 @@
+.containerImgRoom {
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.coverImage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  object-position: 0px center;
+  transform: scale(1.3);
+}
+
+.nameRoom {
+  font-size: 18px;
+  line-height: 23px;
+  color: #222222;
+  font-weight: 500;
+  margin-bottom: 10px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rangePicker {
+  color: #222222;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.utilities {
+  color: #686868;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 0;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.containerImgAvt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Đảm bảo chiều cao của container bằng chiều cao của hình ảnh */
+}
+
+.avtImg {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.info {
+  border: 1px solid #eeeeee;
+  border-radius: 25px;
+  /* padding: 35px; */
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  height: auto;
+}
+.title h1 {
+  margin-top: 5px;
+  line-height: 36px;
+  text-align: start;
+  letter-spacing: 1px;
+  color: #484848;
+  font-size: clamp(15px, calc(18px + 1vw), 33px);
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.avatarChar {
+  background-color: black;
+  color: white;
+  line-height: 180px;
+  font-size: 30px;
+  width: 180px;
+  height: 180px;
+}
+
+.iconSafetyOutlined {
+  font-size: 28px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.verify {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0px;
+  text-transform: capitalize;
+}
+
+.verified {
+  font-weight: 500;
+  font-size: 14px;
+  color: #8d8d8d;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.huyHieu {
+  margin: 10px 0px;
+
+  font-size: 16px;
+  width: auto;
+  padding: 10px 30px;
+  height: 100%;
+}
+
+.buttonFunction {
+  margin-top: 15px;
+  width: 60%;
+  margin: auto;
+  height: auto;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  /* height: 40px; */
+  border: none;
+  margin-bottom: 10px;
+}
+
+.buttonFunction span {
+  text-decoration: none;
+  color: white;
+}
+
+.buttonFunction span:hover {
+  color: white;
+}
+
+.titleRoombooked {
+  color: #222222;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin: 7px 0px 3px 0px;
+}
+
+.valueRoombooked {
+  color: #222222;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}

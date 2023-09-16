@@ -1,0 +1,81 @@
+.search {
+  border: 1px #d5d5d5 solid;
+  /* transition: all 0.5s ease; */
+  font-size: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  height: 50px;
+  border-radius: 40px;
+  overflow: hidden;
+  font-weight: 300;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.035) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.035) 0px 4px 6px -4px;
+  line-height: 48px;
+  color: #717171;
+}
+
+.search:hover {
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.035) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.035) 0px 4px 6px -4px !important;
+  cursor: pointer;
+}
+
+.search h6,
+.search p {
+  line-height: 50px;
+  font-size: 12px;
+}
+
+.search h6 {
+  font-weight: 500;
+  color: black;
+}
+
+.search Button {
+  background-color: #ff395c;
+  color: white;
+  border: transparent;
+  margin-right: 5px;
+}
+
+.search Button:hover {
+  background-color: #cf2f4c !important;
+  border: transparent;
+  color: white !important;
+}
+
+.borderDivider::before,
+.borderDivider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #d1d1d1;
+}
+
+.borderDivider::before {
+  left: 0;
+  height: 50%;
+  top: 15%;
+}
+
+.borderDivider::after {
+  right: 0;
+  height: 50%;
+  top: 15%;
+}
+
+.searchTitle {
+  border: none;
+  /* transition: all 0.5s ease; */
+  font-size: 12px;
+  letter-spacing: normal;
+  text-align: center;
+  height: 50px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #000000;
+}

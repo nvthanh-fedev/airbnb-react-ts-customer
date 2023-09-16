@@ -1,0 +1,5 @@
+.buttonSigninRequest h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#e61d4f, #d80865);
+  -webkit-text-fill-color: transparent;
+}

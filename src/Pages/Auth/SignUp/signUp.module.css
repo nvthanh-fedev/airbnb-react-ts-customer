@@ -1,0 +1,355 @@
+.container {
+  max-width: 320px;
+  margin: auto;
+}
+
+.logo {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.errorsText {
+  color: #a30049;
+  font-size: 10px;
+  margin: 5px 0px;
+}
+
+.inputAuthen,
+.buttonAuthen {
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: normal;
+  margin-top: 15px;
+  width: 100%;
+  color: #8e8e8e;
+  border: 1px solid #f0f0f0;
+  height: 40px;
+  padding: 5px;
+}
+
+.buttonAuthen {
+  border-radius: 8px;
+  background: #e61e4e;
+  background: -webkit-linear-gradient(to right, #e61e4e, #d70666);
+  background: linear-gradient(to right, #e61e4e, #d70666);
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 28px;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.radioKeepAuthen {
+  color: #acacac;
+  font-size: 12px;
+}
+
+.textForgotPass {
+  color: #acacac;
+  font-size: 12px;
+  text-align: end;
+  line-height: 23px;
+}
+
+.textByAuthen {
+  color: #acacac;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.textByAuthen p {
+  margin: 0px;
+}
+
+.textAuthenFacebook,
+.textJoinUs {
+  color: #acacac;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.textAuthenFacebook {
+  text-align: start;
+}
+.textJoinUs {
+  text-align: end;
+}
+
+.displayBlockInline {
+  display: inline-block;
+}
+
+.textPrivacy {
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0px 3px !important;
+  color: #6d6d6d;
+}
+
+.textNotAMenber {
+  font-size: 12px;
+  display: inline-block;
+  color: #acacac;
+  margin: 0px;
+  text-align: end;
+}
+
+.textJoinUs {
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0px 3px !important;
+  color: #6d6d6d;
+  text-align: end;
+}
+
+.container {
+  max-width: 320px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.titleForm {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.inputLabel {
+  color: black;
+  font-size: 13px;
+  padding: 0px;
+  margin-top: 15px;
+}
+
+.errorsText {
+  color: red;
+  font-size: 12px;
+  margin: 2px 0px 10px 2px;
+}
+
+.inputForm,
+.buttonUserForm {
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  color: #3a3a3a;
+  border: 1px solid #f0f0f0;
+  height: 40px;
+  padding: 5px;
+}
+
+.inputForm::placeholder {
+  color: rgb(183, 183, 183);
+}
+.buttonUserForm {
+  border-radius: 6px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 28px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.radioKeepAuthen {
+  color: #8d8d8d;
+  font-size: 12px;
+}
+
+.textForgotPass {
+  color: #acacac;
+  font-size: 12px;
+  text-align: end;
+  line-height: 23px;
+}
+
+.textByUserForm {
+  color: #8d8d8d;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.textByUserForm p {
+  margin: 0px;
+}
+
+.textUserFormFacebook,
+.textJoinUs {
+  color: #acacac;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.textUserFormFacebook {
+  text-align: start;
+}
+.textJoinUs {
+  text-align: end;
+}
+
+.displayBlockInline {
+  display: inline-block;
+}
+
+.textPrivacy {
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0px 3px !important;
+  color: #6d6d6d;
+}
+
+.textNotAMenber {
+  font-size: 12px;
+  display: inline-block;
+  color: #acacac;
+  margin: 0px;
+}
+
+.textJoinUs {
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0px 3px !important;
+  color: #6d6d6d;
+}
+
+.radioInput {
+  align-items: center;
+}
+
+.radioInput input {
+  margin-right: 10px;
+}
+
+.groupRadio {
+  width: 100%;
+  margin-top: 15px;
+  /* border: 1px solid #e61e4e !important; */
+}
+
+.buttonRadio {
+  width: 50%;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: normal;
+  color: #8e8e8e;
+  border: 1px solid #f0f0f0;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.buttonSubmit {
+  border-radius: 6px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 28px;
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.buttonRadioLeft {
+  border-right: 1px solid #e61e4e !important;
+}
+
+.buttonRadioRight {
+  border-left: 1px solid #e61e4e !important;
+}
+
+.buttonRadioLeft {
+  border-top-left-radius: 8px;
+  /* border-bottom-left-radius: 8px; */
+  width: 50%;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: normal;
+  /* margin-top: 15px; */
+  color: #8e8e8e;
+  /* border: 1px solid #f0f0f0; */
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.buttonRadioRight {
+  border-top-right-radius: 8px;
+  width: 50%;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: normal;
+  color: #8e8e8e;
+  border: 1px solid #f0f0f0;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.buttonRadioLeft:hover,
+.buttonRadioRight:hover {
+  color: #e61e4e !important;
+  border: 1px solid #e61e4e !important;
+}
+
+.buttonRadioLeft.checked,
+.buttonRadioRight.checked {
+  color: #e61e4e !important;
+  border: 1px solid #e61e4e !important;
+}
+
+.buttonRadioLeft::after,
+.buttonRadioLeft::before {
+  background-color: #e61e4e;
+}
+
+.sign {
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0px 3px !important;
+  color: #6d6d6d;
+}
+.sign:hover {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0px 3px !important;
+  color: #6d6d6d;
+}

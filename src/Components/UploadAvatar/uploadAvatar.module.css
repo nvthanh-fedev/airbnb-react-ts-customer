@@ -1,0 +1,41 @@
+/* Tùy chỉnh input */
+.inputImage {
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  text-decoration: underline;
+  background-color: transparent;
+  border: none; /* Bỏ viền nút input */
+  padding: 0; /* Bỏ padding nút input */
+  margin: 0; /* Bỏ margin nút input */
+  overflow: hidden; /* Ẩn phần hiển thị tên file */
+}
+
+/* Tùy chỉnh nút input */
+.inputImage[type="file"]::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.inputImage[type="file"]::before {
+  content: "Cập nhật ảnh"; /* Hiển thị nội dung trước nút input */
+  display: inline-block;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  text-decoration: underline;
+  background-color: transparent;
+  border: none; /* Bỏ viền nút input */
+  padding: 0; /* Bỏ padding nút input */
+  margin: 0; /* Bỏ margin nút input */
+  overflow: hidden; /* Ẩn phần hiển thị tên file */
+  margin-top: 10px;
+}

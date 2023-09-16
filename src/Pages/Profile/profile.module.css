@@ -1,0 +1,139 @@
+.container1 {
+  margin-top: 25px;
+}
+
+.container2 {
+  margin-top: 120px;
+}
+
+.title h1 {
+  margin-top: 5px;
+  line-height: 36px;
+  text-align: start;
+  letter-spacing: 1px;
+  color: #484848;
+  font-size: clamp(15px, calc(18px + 1vw), 33px);
+  font-weight: 600;
+}
+
+.titleInput {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #222222;
+  font-weight: 300;
+}
+
+.describe,
+.value {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #717171;
+  font-weight: 300;
+}
+.inputName {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #717171;
+  font-weight: 300;
+}
+
+.buttonFunction {
+  width: 100%;
+  text-align: right;
+}
+
+.buttonFunction span {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right !important;
+  color: #222222;
+  text-decoration: underline !important;
+}
+
+.buttonFunction:hover {
+  background-color: transparent !important;
+}
+
+.input {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.input h3 {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #717171;
+  font-weight: 600;
+}
+
+.error {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #c13515;
+}
+
+.buttonSave {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  /* height: 40px; */
+  border: none;
+  margin-bottom: 10px;
+}
+
+.buttonSave span {
+  text-decoration: none;
+  color: white;
+}
+
+.buttonSave span:hover {
+  color: white;
+}
+
+.questionAndAnswer {
+  border: 1px solid #c3c3c3;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.question {
+  margin-top: 16px;
+  font-size: clamp(10px, calc(14px + 1vw), 20px);
+  line-height: 28px;
+  color: #222222;
+  font-weight: 600;
+}
+.answer {
+  margin-top: 0px;
+  font-size: clamp(8px, calc(12px + 0.5vw), 16px);
+
+  line-height: 20px;
+  color: #8a8a8a;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+}
+
+.imgQaA {
+  width: 80px;
+}

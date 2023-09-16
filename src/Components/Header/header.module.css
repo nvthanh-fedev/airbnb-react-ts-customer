@@ -1,0 +1,178 @@
+.container {
+  background: white;
+  padding: auto 0px;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  /* height: 76px; */
+  /* transition: all 0.1s ease; */
+}
+
+.container::before {
+  content: "";
+  width: 100%;
+  display: table;
+}
+
+.container::after {
+  content: "";
+  width: 100%;
+  display: table;
+  clear: both;
+}
+
+.mainHeader {
+  /* transition: all 0.1s ease; */
+  padding: 15px 0px;
+  height: auto;
+  border: 1px #e9e9e9 solid;
+}
+
+.subHeader {
+  padding: 15px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.imgLogoHeader {
+  width: auto;
+  height: 40px;
+}
+
+.search,
+.manager {
+  font-size: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  height: 50px;
+  border-radius: 40px;
+  overflow: hidden;
+  font-weight: 300;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.035) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.035) 0px 4px 6px -4px;
+  line-height: 50px;
+  color: #717171;
+}
+
+.beHostAirbnb,
+.iconGlobal {
+  font-size: 13px;
+  letter-spacing: normal;
+  text-align: center;
+  height: 50px;
+  border-radius: 40px;
+  overflow: hidden;
+  line-height: 50px;
+  color: #9a9a9a;
+  font-weight: 300;
+}
+
+.search,
+.manager {
+  border: 1px #d5d5d5 solid;
+  /* transition: all 0.1s ease; */
+}
+
+.search:hover,
+.manager:hover {
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.035) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.035) 0px 4px 6px -4px;
+  cursor: pointer;
+}
+
+.search h6,
+.search p,
+.beHostAirbnb h6 {
+  line-height: 50px;
+  font-size: 13px;
+}
+
+.search h6,
+.beHostAirbnb h6 {
+  font-weight: 500;
+  color: black;
+}
+
+.search Button {
+  background-color: #ff395c;
+  color: white;
+  border: transparent;
+}
+
+.search Button:hover {
+  background-color: #cf2f4c !important;
+  border: transparent;
+  color: white !important;
+}
+
+.beHostAirbnb {
+  line-height: 50px;
+  border-radius: 25px;
+  /* transition: all 0.1s ease; */
+}
+
+.beHostAirbnb:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.iconGlobal:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.iconGlobal {
+  text-align: center;
+  line-height: 50px;
+  color: #717171;
+  /* transition: all 0.1s ease; */
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.manager {
+  border: 1px #e9e9e9 solid;
+  line-height: 50px;
+  color: #717171;
+}
+
+.manager .faCircleUser {
+  height: 36px;
+  padding-top: 6px;
+  padding-right: 6px;
+}
+
+.borderDivider::before,
+.borderDivider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #f4f4f4;
+}
+
+.borderDivider::before {
+  left: 0;
+  height: 50%;
+  top: 25%;
+}
+
+.borderDivider::after {
+  right: 0;
+  height: 50%;
+  top: 25%;
+}
+
+.buttonSearchOptions {
+  border: none;
+  background-color: transparent;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

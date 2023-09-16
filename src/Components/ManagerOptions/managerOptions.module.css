@@ -1,0 +1,97 @@
+.manager {
+  transition: all 0.5s ease;
+}
+
+.manager h6,
+.manager p {
+  line-height: 50px;
+  font-size: 12px;
+}
+
+.manager h6 {
+  font-weight: 500;
+  color: black;
+}
+.manager Button:nth-child(1),
+.manager Button:nth-child(2) {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: transparent;
+  margin-right: 10px;
+  box-shadow: none;
+}
+
+.manager Button:nth-child(1):hover,
+.manager Button:nth-child(2):hover {
+  background-color: #f7f7f7 !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.manager Button:nth-child(1):hover {
+  border-radius: 20px;
+}
+
+.manager Button:nth-child(3),
+.managerDrawer Button:nth-child(1) {
+  font-size: 13px;
+  height: 38px;
+  font-weight: 300;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.035) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.035) 0px 4px 6px -4px;
+  line-height: 48px;
+  background-color: #ffffff;
+  color: #717171;
+  border: transparent;
+  width: 64px;
+  border-radius: 20px;
+  border: 1px #d5d5d5 solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 6px 8px;
+}
+
+.manager Button:nth-child(3):hover {
+  color: #cf2f4c !important;
+  border: #cf2f4c 1px solid !important ;
+}
+
+.manager Button:nth-child(3) .icon {
+  line-height: 48px;
+  margin: 0px 0px 0px 8px;
+  font-size: 26px;
+}
+
+.avatar {
+  background-color: black;
+  color: white;
+  height: 25px;
+  line-height: 25px;
+  font-size: 10px;
+  width: 25px;
+  transform: translateZ(0);
+}
+
+.buttonManagerDrawer {
+  font-size: 13px;
+  height: 38px;
+  font-weight: 300;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.035) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.035) 0px 4px 6px -4px;
+  line-height: 48px;
+  background-color: #ffffff;
+  color: #717171;
+  border: transparent;
+  width: 64px;
+  border-radius: 20px;
+  border: 1px #d5d5d5 solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 6px 8px;
+  transition: background-color 0.2s ease;
+}
