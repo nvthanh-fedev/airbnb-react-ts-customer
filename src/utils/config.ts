@@ -4,7 +4,7 @@ import axios from "axios";
 export const USER_LOGIN = "user";
 export const TOKEN = "token";
 
-const tokenCybersoft = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCA0MyIsIkhldEhhblN0cmluZyI6IjA0LzExLzIwMjMiLCJIZXRIYW5UaW1lIjoiMTY5OTA1NjAwMDAwMCIsIm5iZiI6MTY2OTQ4MjAwMCwiZXhwIjoxNjk5MjAzNjAwfQ.7A1g8RqPPK_ttr9NYitsWT7Cbe11nz4qye-QxZ_b8fk`;
+const tokenCybersoft = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgNDAiLCJIZXRIYW5TdHJpbmciOiIyMC8wOS8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MjY3OTA0MDAwMDAiLCJuYmYiOjE3MDg3MDc2MDAsImV4cCI6MTcyNjkzODAwMH0.qIEfzyRFQWZht--DjqY-I9Nz-epTZ6rAvcuTLx_-w00`;
 
 export const http = axios.create({
   baseURL: "https://airbnbnew.cybersoft.edu.vn/",
